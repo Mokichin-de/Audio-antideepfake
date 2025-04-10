@@ -27,3 +27,6 @@ Create your own large-scale dataset based on speech datasets and current speech 
 Increase the percentage of model predictions.
 Improvement of the model architecture
 Function of communication with instant messengers and phone calls.
+
+Testing instructions:
+At the moment, only the version without the dataset is loaded, so when you launch it, you only need to specify the full path to your dataset in the console and combine the model files and executable code into one folder.
