@@ -1,5 +1,8 @@
 # Audio-antideepfake
 Attention! The program is in the MVP project state. 
+
+Introduction
+
 Machine learning model optimized for the task of fast audio file classification based on the minimum amount of audio file information.
 The project aims to be used in active audio calls within companies and individual users.
 To solve this problem, a relatively simple model was used, which consists of MFCC and gradient boosting.
