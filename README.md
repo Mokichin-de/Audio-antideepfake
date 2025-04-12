@@ -17,13 +17,17 @@ The technology of active replenishment of the dataset and additional training wi
 Также будет применена технология активного пополнения набора данных и дополнительного обучения.
 _______________________
 Research
-
+A number of studies have noted a tendency to overcomplicate generated speech search models. 
+This causes problems with their practical application due to the high cost of equipment and the relative inaccessibility of real-time analysis.ъ
+To solve this problem, it was decided to derive an optimal program for analyzing generated speech based on existing research.
 A study of synthesized speech was conducted and scientific articles were analyzed.A study of synthesized speech was conducted and scientific articles on this topic were analyzed. |
 From a number of scientific articles, it was found that bispectral analysis is the most accurate data for prediction. 
 Empirically, it was found that gradient boosting with hyperparameters that are currently used in the program is effective for such a task.
 
 Исследование
-
+В ряде исследований была замечена тенденция к излишнему усложнению моделей поиска сгенерированной речи.
+Это вызывает проблемы с применением их на практики из-за дороговизны оборудования и относительной недостежимости real-time анализа.
+Для решения данной проблемы было принято решение вывести оптимальную программу для анализа сгенерированной речи на основе уже имеющихся исследованиях.
 Было проведено исследование синтезированной речи и проанализированы научные статьи.Было проведено исследование синтезированной речи и проанализированы научные статьи на эту тему. |
 Из ряда научных статей было выведено, что биспектральный анализ является наиболее точным методом прогнозирования. 
 Эмпирически было установлено, что повышение градиента с помощью гиперпараметров, которые в настоящее время используются в программе, эффективно для решения такой задачи.
@@ -60,6 +64,7 @@ Testing Instructions:
 At the moment, only the version without the dataset has been downloaded, so when you run it, you only need to specify the full path to your datasets in the code and combine the model files and executable code into one folder.I'm sorry for the inconvenience.
 We suggest using this dataset for this:
 https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset
+
 Инструкции по тестированию:
 
 На данный момент загружена только версия без набора данных, поэтому при ее запуске вам нужно только указать полный путь к вашим наборам данных в коде и объединить файлы модели и исполняемый код в одну папку.Прошу прощения за предоставленные неудобства.
